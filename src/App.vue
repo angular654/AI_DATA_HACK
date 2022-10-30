@@ -1,14 +1,14 @@
 <template>
-  <PersonalCabinet/>
+  <OpenDemoPage/>
 </template>
 
 <script>
-import PersonalCabinet from './components/PersonalCabinet.vue'
+import OpenDemoPage from './components/OpenDemoPage.vue'
 
 export default {
   name: 'App',
   components: {
-    PersonalCabinet
+    OpenDemoPage
   }
 }
 </script>

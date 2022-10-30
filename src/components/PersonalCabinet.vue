@@ -240,7 +240,7 @@ export default {
         let uploadForm = document.getElementById('upload__form');
         let closeBtn = document.querySelectorAll('label.upload__btn svg rect:not(:first-child)');
 
-        uploadForm.addEventListener('change', function (e) {
+        uploadForm.addEventListener('change', function () {
             if (uploadForm.files && uploadForm.files.length >= 1) {
                 for (var i = 0; i < uploadForm.files.length; i++){
                     this.files.push( uploadForm.files[i] );

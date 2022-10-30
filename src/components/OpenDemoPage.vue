@@ -6,7 +6,7 @@
         <div class="column__left">
             <h1>Жабы спасут этот мир!</h1>
             <p>(и мир документации тоже)</p>
-            <button class="form__button">Запустить Демо</button>
+            <a href="/personal"><button class="form__button">Запустить Демо</button></a>
         </div>
         <div class="column__right"></div>
     </div>
